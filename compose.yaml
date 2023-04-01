@@ -22,7 +22,7 @@ services:
     ports:
       - 6379:6379
     volumes:
-      - ./redis_data/:/var/lib/redis/data
+      - ./redis_data/:/data
       - "./redis.conf:/etc/redis/redis.conf"
       - "./server.crt:/etc/redis/server.crt"
       - "./server.key:/etc/redis/server.key"
