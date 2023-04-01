@@ -37,3 +37,10 @@ http://localhost:3000/admins/home
 admin@example.com / pass1234
 http://localhost:3000/admins/sidekiq
 ```
+
+# 後片付け
+```
+docker volume prune
+docker system prune
+docker image prune
+```
