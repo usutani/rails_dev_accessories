@@ -15,7 +15,7 @@ services:
     ports:
       - 5432:5432
   redis:
-    image: redis:6.2.10-bullseye
+    image: redis:7.0-bullseye
     restart: always
     container_name: re
     command: redis-server /etc/redis/redis.conf
